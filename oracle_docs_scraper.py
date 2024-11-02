@@ -8,7 +8,7 @@ base_url = "https://docs.oracle.com/ja-jp/iaas/Content/ContEng/"
 visited_links = set()
 
 # HTMLファイルの保存ディレクトリ
-save_dir = "htmls"
+save_dir = "/mnt/htmls"
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 
